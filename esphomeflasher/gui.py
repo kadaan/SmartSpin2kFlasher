@@ -281,9 +281,9 @@ class MainFrame(wx.Frame):
 class App(wx.App, wx.lib.mixins.inspection.InspectionMixin):
     def OnInit(self):
         wx.SystemOptions.SetOption("mac.window-plain-transition", 1)
-        self.SetAppName("esphome-flasher (Based on NodeMCU PyFlasher)")
+        self.SetAppName("SmartSpin2K-flasher (Based on esphome-flasher)")
 
-        frame = MainFrame(None, "esphome-flasher (Based on NodeMCU PyFlasher)")
+        frame = MainFrame(None, "SmartSpin2K-flasher (Based on esphome-flasher)")
         frame.Show()
 
         return True
