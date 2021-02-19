@@ -52,7 +52,7 @@ setup(
     keywords=['home', 'automation'],
     entry_points={
         'console_scripts': [
-            'esphomeflasher = esphomeflasher.__main__:main'
+            'SmartSpin2KFlasher = esphomeflasher.__main__:main'
         ]
     },
     packages=find_packages(include="esphomerelease.*")
