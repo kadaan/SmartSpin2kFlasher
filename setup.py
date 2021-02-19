@@ -6,16 +6,16 @@ from setuptools import setup, find_packages
 
 from esphomeflasher import const
 
-PROJECT_NAME = 'esphomeflasher'
-PROJECT_PACKAGE_NAME = 'esphomeflasher'
+PROJECT_NAME = 'SmartSpin2Kflasherr'
+PROJECT_PACKAGE_NAME = 'SmartSpin2Kflasher'
 PROJECT_LICENSE = 'MIT'
 PROJECT_AUTHOR = 'ESPHome'
 PROJECT_COPYRIGHT = '2020, ESPHome'
 PROJECT_URL = 'https://esphome.io/guides/faq.html'
 PROJECT_EMAIL = 'contact@esphome.io'
 
-PROJECT_GITHUB_USERNAME = 'esphome'
-PROJECT_GITHUB_REPOSITORY = 'esphome-flasher'
+PROJECT_GITHUB_USERNAME = 'SmartSpin2K'
+PROJECT_GITHUB_REPOSITORY = 'SmartSpin2K-flasher'
 
 PYPI_URL = 'https://pypi.python.org/pypi/{}'.format(PROJECT_PACKAGE_NAME)
 GITHUB_PATH = '{}/{}'.format(PROJECT_GITHUB_USERNAME, PROJECT_GITHUB_REPOSITORY)
