@@ -1,21 +1,21 @@
 #!/usr/bin/env python
-"""esphomeflasher setup script."""
+"""smartspin2kflasher setup script."""
 import os
 
 from setuptools import setup, find_packages
 
 from esphomeflasher import const
 
-PROJECT_NAME = 'SmartSpin2Kflasherr'
-PROJECT_PACKAGE_NAME = 'SmartSpin2Kflasher'
+PROJECT_NAME = 'smartspin2kflasher'
+PROJECT_PACKAGE_NAME = 'smartspin2kflasher'
 PROJECT_LICENSE = 'MIT'
-PROJECT_AUTHOR = 'ESPHome'
-PROJECT_COPYRIGHT = '2020, ESPHome'
-PROJECT_URL = 'https://esphome.io/guides/faq.html'
+PROJECT_AUTHOR = 'SmartSpin2k'
+PROJECT_COPYRIGHT = '2020, SmartSpin2k'
+PROJECT_URL = 'https://github.com/doudar/SmartSpin2k'
 PROJECT_EMAIL = 'contact@esphome.io'
 
 PROJECT_GITHUB_USERNAME = 'SmartSpin2K'
-PROJECT_GITHUB_REPOSITORY = 'SmartSpin2K-flasher'
+PROJECT_GITHUB_REPOSITORY = 'SmartSpin2KFlasher'
 
 PYPI_URL = 'https://pypi.python.org/pypi/{}'.format(PROJECT_PACKAGE_NAME)
 GITHUB_PATH = '{}/{}'.format(PROJECT_GITHUB_USERNAME, PROJECT_GITHUB_REPOSITORY)
@@ -40,7 +40,7 @@ setup(
     download_url=DOWNLOAD_URL,
     author=PROJECT_AUTHOR,
     author_email=PROJECT_EMAIL,
-    description="ESP8266/ESP32 firmware flasher for ESPHome",
+    description="ESP8266/ESP32 firmware flasher for SmartSpin2k",
     include_package_data=True,
     zip_safe=False,
     platforms='any',

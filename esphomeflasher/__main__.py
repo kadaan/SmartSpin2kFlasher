@@ -17,7 +17,7 @@ from esphomeflasher.helpers import list_serial_ports
 
 
 def parse_args(argv):
-    parser = argparse.ArgumentParser(prog='esphomeflasher {}'.format(const.__version__))
+    parser = argparse.ArgumentParser(prog='smartspin2kflasher {}'.format(const.__version__))
     parser.add_argument('-p', '--port',
                         help="Select the USB/COM port for uploading.")
     group = parser.add_mutually_exclusive_group(required=False)
