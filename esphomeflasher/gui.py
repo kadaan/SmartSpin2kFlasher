@@ -157,7 +157,7 @@ class FlashingThread(threading.Thread):
         try:
             from esphomeflasher.__main__ import run_esphomeflasher
 
-            argv = ['esphomeflasher', '--port', self._port, self._firmware]
+            argv = ['smartspin2kflasher', '--port', self._port, self._firmware]
             if self._show_logs:
                 argv.append('--show-logs')
             run_esphomeflasher(argv)
@@ -281,9 +281,9 @@ class MainFrame(wx.Frame):
 class App(wx.App, wx.lib.mixins.inspection.InspectionMixin):
     def OnInit(self):
         wx.SystemOptions.SetOption("mac.window-plain-transition", 1)
-        self.SetAppName("SmartSpin2K-flasher (Based on esphome-flasher)")
+        self.SetAppName("SmartSpin2kFlasher (Based on esphome-flasher)")
 
-        frame = MainFrame(None, "SmartSpin2K-flasher (Based on esphome-flasher)")
+        frame = MainFrame(None, "SmartSpin2kFlasher (Based on esphome-flasher)")
         frame.Show()
 
         return True
